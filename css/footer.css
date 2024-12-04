@@ -1,0 +1,126 @@
+.footer{
+    margin: 0 40px;
+    padding: 40px 24px;
+}
+
+.footer-content{
+    display: flex;
+}
+.footer-introduce{
+    flex: 1;
+    padding: 0 32px 0 0;
+}
+.footer-nav{
+    flex: 1;
+    display: flex;
+    padding: 0 32px;
+}
+.footer-contact{
+    flex: 1;
+    padding: 0 0 0 32px;
+}
+.footer-introduce-text{
+    margin: 24px 0 0;
+    color: #637381;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.footer-social{
+    margin: 40px 0 0;
+}
+.footer-social p {
+    font-size: 1.075rem;
+    color: #212b36;
+    font-weight: 700;
+}
+.footer-icon{
+    margin: 16px 0 0;
+    display: flex;
+}
+.footer-icon img {
+    width: 8.5%;
+    padding: 8px;
+}
+.footer-icon img:hover{
+    border-radius: 50%;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+.footer-home{
+    flex: 1;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-home p{
+    font-size: 0.875rem;
+    color: #212b36;
+    font-weight: 700;
+}
+.footer-home a{
+    color: #637381;
+    font-size: 0.75rem;
+    margin: 12px 0 0;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer-home a:hover{
+    text-decoration: underline;
+    color: #212b36;
+}
+.footer-compare{
+    flex: 1;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-compare a:hover{
+    text-decoration: underline;
+    color: #212b36;
+}
+.footer-compare p{
+    font-size: 0.875rem;
+    color: #212b36;
+    font-weight: 700;
+}
+.footer-compare a{
+    color: #637381;
+    font-size: 0.75rem;
+    margin: 12px 0 0;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer-contact-title{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #212b36;
+}
+.footer-contact-content{
+    margin: 8px 0 0 ;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #637381;
+}
+.footer-copyright{
+    padding: 24px 0;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #637381;
+    text-align: center;
+}
+@media(max-width:900px){
+    .footer{
+        margin: 0;
+        padding: 12px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-introduce, .footer-nav, .footer-contact{
+        padding: 12px 0;
+    }
+    .footer-copyright{
+        padding: 40px 0 16px;
+    }
+}

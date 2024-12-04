@@ -1,0 +1,171 @@
+.container {
+  background-color: #ffffff;
+}
+.introduce {
+  display: flex;
+  margin: 0 2.5rem 0;
+  padding: 0 1.5rem;
+}
+.introduce-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.wrap-introduce-text {
+  margin: 0 0 2rem 0;
+}
+
+.introduce-text-highline {
+  color: #696cff;
+}
+.introduce-button {
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: wrap;
+  gap: 16px;
+}
+.introduce-button-title {
+  width: 100%;
+  margin: 0px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 1rem;
+  color: rgb(99, 115, 129);
+}
+.introduce-button button {
+  display: flex;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 8px 12px;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.introduce-button button:hover{
+  background-color: #eeeeee;
+}
+.introduce-button button p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.introduce-button button img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.introduce-button img {
+  margin-left: 8px;
+}
+.introduce-img {
+}
+.introduce-advise {
+  display: flex;
+  margin: 2rem 0 0 0;
+}
+
+.introduce-advise a {
+  background-color: rgb(105, 108, 255);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  white-space: nowrap;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+.introduce-advise a:hover{
+  background-color: rgb(25, 57, 183);
+}
+.introduce-advise p {
+  font-weight: 500;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: rgb(99, 115, 129);
+  margin: 0 0 0 0.5rem;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.introduce-section-line {
+  margin: 2rem 0;
+  flex-shrink: 0;
+  border-width: 0px 0px thin;
+  border-color: rgba(145, 158, 171, 0.24);
+  border-style: dashed;
+}
+
+.wrap-introduce-section-quality{
+    display: flex;   
+    width: 100%; 
+}
+.introduce-section-quality{
+    display: flex;
+    width: 100%; 
+
+}
+.quality-color-student{
+    background-color: #ffab00;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;    
+    opacity: 0.24;
+}
+.quality-color-teacher{
+    background-color: #ff5630;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;    
+    opacity: 0.24;
+}
+.quality-color-center{
+    background-color: #36b37e;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;    
+    opacity: 0.24;
+}
+.introduce-section-quality h4{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.introduce-section-quality p{
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    color: rgb(99, 115, 129);
+}
+
+
+@media (max-width: 900px) {
+  .introduce {
+    margin: 0;
+    padding: 0 14px 0;
+  }
+  .introduce-button{
+    margin: 0;
+  }
+  .introduce-img {
+    display: none;
+  }
+  .introduce-text{
+    color: #637381;
+  }
+  .introduce-text, .introduce-text-highline{
+    font-size: 24px;
+  }
+  .introduce-section-line{
+   margin: 24px 0 ; 
+  }
+  .introduce-section-quality h4{
+    font-size: 18px;
+  }
+}
